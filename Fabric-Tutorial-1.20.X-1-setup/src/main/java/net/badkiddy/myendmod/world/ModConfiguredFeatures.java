@@ -17,16 +17,16 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ENDENDERITE_ORE_KEY = registerKey("enderite_block_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ENDENDERITE_ORE_KEY = registerKey("enderite_ore");
 
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest endReplacables = new BlockMatchRuleTest(Blocks.END_STONE);
 
-        List<OreFeatureConfig.Target> endRubyOres =
+        List<OreFeatureConfig.Target> endEnderiteOres =
                 List.of(OreFeatureConfig.createTarget(endReplacables, ModBlocks.ENDERITE_ORE.getDefaultState()));
 
 
-        register(context, ENDENDERITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endRubyOres, 12));
+        register(context, ENDENDERITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endEnderiteOres, 12));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
-    public static final Block ENDERITE_ORE = registerBlock("enderite_block_ore",
+    public static final Block ENDERITE_ORE = registerBlock("enderite__block_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
 
 

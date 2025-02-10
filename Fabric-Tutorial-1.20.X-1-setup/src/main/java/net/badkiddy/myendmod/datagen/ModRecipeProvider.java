@@ -34,7 +34,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("SSS")
                 .pattern("SSS")
                 .pattern("SSS")
-                .input('R', ModItems.ENDERITE)
+                .input('S', ModItems.ENDERITE)
                 .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDERITE)));
     }
