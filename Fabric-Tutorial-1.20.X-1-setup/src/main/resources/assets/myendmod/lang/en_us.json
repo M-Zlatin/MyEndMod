@@ -1,0 +1,7 @@
+{
+  "item.myendmod.enderite": "Enderite",
+  "itemgroup.enderite": "My End Mod",
+
+  "block.myendmod.enderite_block" : "Enderite Block",
+  "block.myendmod.enderite_block_ore" : "Enderite Ore"
+}

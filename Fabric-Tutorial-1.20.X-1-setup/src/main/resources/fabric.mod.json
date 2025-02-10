@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "myendmod",
+	"version": "${version}",
+	"name": "MyEndMod",
+	"description": "This is a Mod made by Badkiddy :)",
+	"authors": [
+		"Badkiddy!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/myendmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.badkiddy.myendmod.MyEndMod"
+		],
+		"client": [
+			"net.badkiddy.myendmod.MyEndModClient"
+		],
+		"fabric-datagen": [
+			"net.badkiddy.myendmod.MyEndModDataGenerator"
+		]
+	},
+	"mixins": [
+		"myendmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
