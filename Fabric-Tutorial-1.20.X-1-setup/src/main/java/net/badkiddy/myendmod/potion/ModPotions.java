@@ -15,10 +15,10 @@ public class ModPotions {
 
     public static Potion registerPotion(String name) {
         return Registry.register(Registries.POTION, new Identifier(MyEndMod.MOD_ID, name),
-                new Potion(new StatusEffectInstance(ModEffects.SLEEP, 100, 0)));
+                new Potion(new StatusEffectInstance(ModEffects.SLEEP, 90, 0)));
     }
 
     public static void registerPotions() {
-        SLEEP_POTION = registerPotion("sleep");
+        SLEEP_POTION = registerPotion("sleep_potion");
     }
 }

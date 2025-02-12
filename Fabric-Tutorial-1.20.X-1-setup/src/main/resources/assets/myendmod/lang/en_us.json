@@ -2,11 +2,12 @@
   "item.myendmod.enderite": "Enderite",
   "itemgroup.enderite": "My End Mod",
 
-  "block.myendmod.enderite_block" : "Enderite Block",
-  "block.myendmod.enderite_block_ore" : "Enderite Ore",
+  "block.myendmod.enderite_block": "Enderite Block",
+  "block.myendmod.enderite_block_ore": "Enderite Ore",
 
-  "item.minecraft.potion.effect.sleep_potion": "Sleep Potion",
-  "item.minecraft.splash_potion.effect.sleep_potion": "Splash Potion of Sleep",
-  "item.minecraft.lingering_potion.effect.sleep_potion": "Lingering Potion of Sleep",
+  "item.myendmod.sleep_potion": "Sleep Potion",
+  "item.myendmod.splash_sleep_potion": "Splash Potion of Sleep",
+  "item.myendmod.lingering_sleep_potion": "Lingering Potion of Sleep",
+
   "effect.myendmod.sleep": "Sleep"
 }
