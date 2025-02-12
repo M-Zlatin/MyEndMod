@@ -22,5 +22,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ENDERITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERITE_UPGRADE_TOOL,Models.GENERATED);
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "enderite",
+  "ingredient": {
+    "item": "myendmod:enderite_block_ore"
+  },
+  "result": "myendmod:enderite"
+}

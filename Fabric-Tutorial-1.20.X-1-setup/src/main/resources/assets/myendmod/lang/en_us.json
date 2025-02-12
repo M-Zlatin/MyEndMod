@@ -1,9 +1,11 @@
 {
   "item.myendmod.enderite": "Enderite",
+  "item.myendmod.enderite_upgrade_tool": "Enderite Upgarde Tool",
   "itemgroup.enderite": "My End Mod",
 
   "block.myendmod.enderite_block": "Enderite Block",
   "block.myendmod.enderite_block_ore": "Enderite Ore",
+
 
   "item.myendmod.sleep_potion": "Sleep Potion",
   "item.myendmod.splash_sleep_potion": "Splash Potion of Sleep",

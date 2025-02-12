@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ENDERITE = registerItem("enderite", new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_UPGRADE_TOOL = registerItem("enderite_upgrade_tool", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngriedensTabItemGrop(FabricItemGroupEntries entries) {
         entries.add(ENDERITE);

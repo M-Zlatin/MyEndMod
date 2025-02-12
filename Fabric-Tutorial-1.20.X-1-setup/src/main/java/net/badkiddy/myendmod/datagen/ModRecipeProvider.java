@@ -22,20 +22,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+        // Smelting and Blasting recipes
         offerSmelting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE,
                 0.7f, 200, "enderite");
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE,
                 0.7f, 100, "enderite");
 
+        // Reversible Compacting recipes
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ENDERITE, RecipeCategory.DECORATIONS,
                 ModBlocks.ENDERITE_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ENDERITE, 1)
-                .pattern("SSS")
-                .pattern("SSS")
-                .pattern("SSS")
-                .input('S', ModItems.ENDERITE)
+        // 9 Enderite -> 1 Enderite Block
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDERITE_BLOCK, 1)
+                .pattern("EEE")
+                .pattern("EEE")
+                .pattern("EEE")
+                .input('E', ModItems.ENDERITE)
                 .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDERITE)));
+                .offerTo(exporter, new Identifier("myendmod", "enderite_block_crafting"));
     }
 }
