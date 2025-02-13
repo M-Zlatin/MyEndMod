@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDERITE_BLOCK);
                         entries.add(ModBlocks.ENDERITE_ORE);
                         entries.add(ModItems.ENDERITE_UPGRADE_TOOL);
+                        entries.add(ModItems.ENDERITE_DUST);
 
                     }).build());
 

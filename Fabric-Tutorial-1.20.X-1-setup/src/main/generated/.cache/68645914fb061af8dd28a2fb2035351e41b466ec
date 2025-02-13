@@ -1,8 +1,9 @@
-// 1.20.1	2025-02-12T16:00:21.8615913	MyEndMod/Model Definitions
+// 1.20.1	2025-02-12T17:31:52.1321702	MyEndMod/Model Definitions
+5ca139f249af05f129e9bb84e2a947fda13350b2 assets\myendmod\models\item\enderite_dust.json
 443d0603f91e4093fd99521272a7caf6c0571d2a assets\myendmod\models\item\enderite_upgrade_tool.json
 e3f1b944476bd674eae64e0cf04ffe5798a904ff assets\myendmod\models\item\enderite_block.json
-3aa34cf6ebb74c0ef88d2259760b079989399be0 assets\myendmod\models\block\enderite_block_ore.json
 d4fe68ee291c62ff70fe8773e05ab1dfca5774b3 assets\myendmod\models\item\enderite_block_ore.json
+3aa34cf6ebb74c0ef88d2259760b079989399be0 assets\myendmod\models\block\enderite_block_ore.json
 69aba1917992d7efbe99963d4cf01009d46a1fb7 assets\myendmod\models\item\enderite.json
 cce94bf5325a26ceebf77f38d331ed9bf7c30cd9 assets\myendmod\models\block\enderite_block.json
 8c3e2fa0a07345f07f48dfa38653d0daaac1bbba assets\myendmod\blockstates\enderite_block.json

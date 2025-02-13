@@ -23,5 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ENDERITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDERITE_UPGRADE_TOOL,Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERITE_DUST,Models.GENERATED);
     }
 }
