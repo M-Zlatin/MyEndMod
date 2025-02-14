@@ -1,10 +1,12 @@
 package net.badkiddy.myendmod;
 
+
 import net.badkiddy.myendmod.block.ModBlocks;
 import net.badkiddy.myendmod.effect.ModEffects;
 import net.badkiddy.myendmod.item.ModItemGroups;
 import net.badkiddy.myendmod.item.ModItems;
 import net.badkiddy.myendmod.potion.ModPotions;
+import net.badkiddy.myendmod.util.ModLootTableModifiers;
 import net.badkiddy.myendmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -21,7 +23,10 @@ public class MyEndMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
 
-		ModEffects.registerEffects(); // Register Sleep Effect
-		ModPotions.registerPotions(); // Register Potion of Sleep
+		ModEffects.registerEffects();
+		ModPotions.registerPotions();
+
+		ModLootTableModifiers.modifyLootTables();
+
 	}
 }

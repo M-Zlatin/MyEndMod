@@ -12,5 +12,10 @@
   "item.myendmod.splash_sleep_potion": "Splash Potion of Sleep",
   "item.myendmod.lingering_sleep_potion": "Lingering Potion of Sleep",
 
-  "effect.myendmod.sleep": "Sleep"
+  "effect.myendmod.sleep": "Sleep",
+
+  "item.myendmod.enderite_helmet": "Enderite Helmet",
+  "item.myendmod.enderite_chestplate": "Enderite Chestplate",
+  "item.myendmod.enderite_leggings": "Enderite Leggings",
+  "item.myendmod.enderite_boots": "Enderite Boots"
 }

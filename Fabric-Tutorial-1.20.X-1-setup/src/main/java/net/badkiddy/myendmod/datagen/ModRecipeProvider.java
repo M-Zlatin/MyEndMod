@@ -8,6 +8,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -50,5 +51,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.END_STONE)
                 .criterion(hasItem(ModItems.ENDERITE_DUST), conditionsFromItem(ModItems.ENDERITE_DUST))
                 .offerTo(exporter, new Identifier("myendmod", "enderite_from_enderite_dust_and_end_stone"));
+
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.ENDERITE_UPGRADE_TOOL), // Slot 1: Enderite Upgrade Tool
+                        Ingredient.ofItems(Items.NETHERITE_HELMET), // Slot 2: Netherite Helmet
+                        Ingredient.ofItems(ModItems.ENDERITE), // Slot 3: Enderite
+                        RecipeCategory.BUILDING_BLOCKS, // Category
+                        ModItems.ENDERITE_HELMET // Result item - Enderite Helmet
+                ).criterion(hasItem(ModItems.ENDERITE_UPGRADE_TOOL), conditionsFromItem(ModItems.ENDERITE_UPGRADE_TOOL))
+                .criterion(hasItem(Items.NETHERITE_HELMET), conditionsFromItem(Items.NETHERITE_HELMET))
+                .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
+                .offerTo(exporter, new Identifier("myendmod", "netherite_to_enderite_helmet"));
+
+        // 🔷 Smithing Recipe: Upgrade Netherite Chestplate to Enderite Chestplate
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.ENDERITE_UPGRADE_TOOL), // Slot 1: Enderite Upgrade Tool
+                        Ingredient.ofItems(Items.NETHERITE_CHESTPLATE), // Slot 2: Netherite Chestplate
+                        Ingredient.ofItems(ModItems.ENDERITE), // Slot 3: Enderite
+                        RecipeCategory.BUILDING_BLOCKS,
+                        ModItems.ENDERITE_CHESTPLATE
+                ).criterion(hasItem(ModItems.ENDERITE_UPGRADE_TOOL), conditionsFromItem(ModItems.ENDERITE_UPGRADE_TOOL))
+                .criterion(hasItem(Items.NETHERITE_CHESTPLATE), conditionsFromItem(Items.NETHERITE_CHESTPLATE))
+                .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
+                .offerTo(exporter, new Identifier("myendmod", "netherite_to_enderite_chestplate"));
+
+        // 🔷 Smithing Recipe: Upgrade Netherite Leggings to Enderite Leggings
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.ENDERITE_UPGRADE_TOOL), // Slot 1: Enderite Upgrade Tool
+                        Ingredient.ofItems(Items.NETHERITE_LEGGINGS), // Slot 2: Netherite Leggings
+                        Ingredient.ofItems(ModItems.ENDERITE), // Slot 3: Enderite
+                        RecipeCategory.BUILDING_BLOCKS,
+                        ModItems.ENDERITE_LEGGINGS
+                ).criterion(hasItem(ModItems.ENDERITE_UPGRADE_TOOL), conditionsFromItem(ModItems.ENDERITE_UPGRADE_TOOL))
+                .criterion(hasItem(Items.NETHERITE_LEGGINGS), conditionsFromItem(Items.NETHERITE_LEGGINGS))
+                .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
+                .offerTo(exporter, new Identifier("myendmod", "netherite_to_enderite_leggings"));
+
+        // 🔷 Smithing Recipe: Upgrade Netherite Boots to Enderite Boots
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.ENDERITE_UPGRADE_TOOL), // Slot 1: Enderite Upgrade Tool
+                        Ingredient.ofItems(Items.NETHERITE_BOOTS), // Slot 2: Netherite Boots
+                        Ingredient.ofItems(ModItems.ENDERITE), // Slot 3: Enderite
+                        RecipeCategory.BUILDING_BLOCKS,
+                        ModItems.ENDERITE_BOOTS
+                ).criterion(hasItem(ModItems.ENDERITE_UPGRADE_TOOL), conditionsFromItem(ModItems.ENDERITE_UPGRADE_TOOL))
+                .criterion(hasItem(Items.NETHERITE_BOOTS), conditionsFromItem(Items.NETHERITE_BOOTS))
+                .criterion(hasItem(ModItems.ENDERITE), conditionsFromItem(ModItems.ENDERITE))
+                .offerTo(exporter, new Identifier("myendmod", "netherite_to_enderite_boots"));
     }
 }

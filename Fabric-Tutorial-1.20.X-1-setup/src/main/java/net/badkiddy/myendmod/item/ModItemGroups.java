@@ -2,9 +2,12 @@ package net.badkiddy.myendmod.item;
 
 import net.badkiddy.myendmod.MyEndMod;
 import net.badkiddy.myendmod.block.ModBlocks;
+import net.badkiddy.myendmod.effect.ModEffects;
+import net.badkiddy.myendmod.potion.ModPotions;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.PotionItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -20,6 +23,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDERITE_ORE);
                         entries.add(ModItems.ENDERITE_UPGRADE_TOOL);
                         entries.add(ModItems.ENDERITE_DUST);
+
+                        entries.add(ModItems.ENDERITE_HELMET);
+                        entries.add(ModItems.ENDERITE_CHESTPLATE);
+                        entries.add(ModItems.ENDERITE_LEGGINGS);
+                        entries.add(ModItems.ENDERITE_BOOTS);
 
                     }).build());
 
