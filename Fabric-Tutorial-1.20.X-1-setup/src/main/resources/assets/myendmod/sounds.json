@@ -1,0 +1,11 @@
+{
+  "dielemma": {
+    "subtitle": "sounds.myendmod.dielemma",
+    "sounds": [
+      {
+        "name": "myendmod:dielemma",
+        "stream": true
+      }
+    ]
+  }
+}

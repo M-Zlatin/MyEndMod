@@ -8,14 +8,29 @@
   "block.myendmod.enderite_block_ore": "Enderite Ore",
 
 
-  "item.myendmod.sleep_potion": "Sleep Potion",
-  "item.myendmod.splash_sleep_potion": "Splash Potion of Sleep",
-  "item.myendmod.lingering_sleep_potion": "Lingering Potion of Sleep",
+  "item.minecraft.potion.effect.sleep_potion": "Sleep Potion",
+  "item.minecraft.splash_potion.effect.sleep_potion": "Splash Potion of Sleep",
+  "item.minecraft.lingering_potion.effect.sleep_potion": "Lingering Potion of Sleep",
 
   "effect.myendmod.sleep": "Sleep",
 
   "item.myendmod.enderite_helmet": "Enderite Helmet",
   "item.myendmod.enderite_chestplate": "Enderite Chestplate",
   "item.myendmod.enderite_leggings": "Enderite Leggings",
-  "item.myendmod.enderite_boots": "Enderite Boots"
+  "item.myendmod.enderite_boots": "Enderite Boots",
+
+  "item.myendmod.dielemma_music_disk": "Dilemma Music Disc",
+  "item.myendmod.dielemma_music_disk.desc": "https://www.youtube.com/@mrzeroskill The Dump",
+
+  "entity.minecraft.villager.end_trader": "End Trader",
+
+  "block.myendmod.enderite_dust_stairs": "Enderite Dust Stairs",
+  "block.myendmod.enderite_dust_slab": "Enderite Dust Slab",
+  "block.myendmod.enderite_dust_button": "Enderite Dust Button",
+  "block.myendmod.enderite_dust_pressure_plate": "Enderite Dust Pressure Plate",
+  "block.myendmod.enderite_dust_fence": "Enderite Dust Fence",
+  "block.myendmod.enderite_dust_fence_gate": "Enderite Dust Fence Gate",
+  "block.myendmod.enderite_dust_wall": "Enderite Dust Wall",
+  "block.myendmod.enderite_dust_door": "Enderite Dust Door",
+  "block.myendmod.enderite_dust_trapdoor": "Enderite Dust Trapdoor"
 }

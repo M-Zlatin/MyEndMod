@@ -6,7 +6,10 @@ import net.badkiddy.myendmod.effect.ModEffects;
 import net.badkiddy.myendmod.item.ModItemGroups;
 import net.badkiddy.myendmod.item.ModItems;
 import net.badkiddy.myendmod.potion.ModPotions;
+import net.badkiddy.myendmod.sounds.ModSounds;
+import net.badkiddy.myendmod.util.ModCustomTrades;
 import net.badkiddy.myendmod.util.ModLootTableModifiers;
+import net.badkiddy.myendmod.villager.ModVillagers;
 import net.badkiddy.myendmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -23,10 +26,18 @@ public class MyEndMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
 
+		ModSounds.registerSounds();
+
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
 
+		ModVillagers.registerVillagers();
+
 		ModLootTableModifiers.modifyLootTables();
+
+		ModCustomTrades.registerCustomTrades();
+
+
 
 	}
 }

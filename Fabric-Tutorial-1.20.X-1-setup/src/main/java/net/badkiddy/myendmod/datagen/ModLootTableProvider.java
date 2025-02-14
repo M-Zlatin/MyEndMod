@@ -24,6 +24,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.ENDERITE_BLOCK);
         addDrop(ModBlocks.ENDERITE_ORE, copperLikeOreDrops(ModBlocks.ENDERITE_ORE, ModItems.ENDERITE_DUST));
+
+        addDrop(ModBlocks.ENDERITE_DUST_FENCE_GATE);
+        addDrop(ModBlocks.ENDERITE_DUST_FENCE);
+        addDrop(ModBlocks.ENDERITE_DUST_WALL);
+        addDrop(ModBlocks.ENDERITE_DUST_PRESSURE_PLATE);
+        addDrop(ModBlocks.ENDERITE_DUST_STAIRS);
+        addDrop(ModBlocks.ENDERITE_DUST_SLAB,slabDrops(ModBlocks.ENDERITE_DUST_SLAB));
+        addDrop(ModBlocks.ENDERITE_DUST_BLOCK);
+        addDrop(ModBlocks.ENDERITE_DUST_BUTTON);
+        addDrop(ModBlocks.ENDERITE_DUST_DOOR ,doorDrops(ModBlocks.ENDERITE_DUST_DOOR));
+        addDrop(ModBlocks.ENDERITE_DUST_TRAPDOOR);
     }
 
     public LootTable.Builder copperLikeOreDrops(Block block, Item item) {

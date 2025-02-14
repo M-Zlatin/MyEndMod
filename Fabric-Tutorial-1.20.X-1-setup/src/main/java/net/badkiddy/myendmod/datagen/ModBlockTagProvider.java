@@ -25,5 +25,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDERITE_BLOCK)
                 .add(ModBlocks.ENDERITE_ORE);
 
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ENDERITE_DUST_FENCE);
+
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ENDERITE_DUST_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ENDERITE_DUST_WALL);
+
     }
 }

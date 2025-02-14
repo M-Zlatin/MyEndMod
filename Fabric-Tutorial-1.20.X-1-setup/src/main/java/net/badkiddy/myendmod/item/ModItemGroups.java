@@ -2,12 +2,10 @@ package net.badkiddy.myendmod.item;
 
 import net.badkiddy.myendmod.MyEndMod;
 import net.badkiddy.myendmod.block.ModBlocks;
-import net.badkiddy.myendmod.effect.ModEffects;
-import net.badkiddy.myendmod.potion.ModPotions;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.PotionItem;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -23,11 +21,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDERITE_ORE);
                         entries.add(ModItems.ENDERITE_UPGRADE_TOOL);
                         entries.add(ModItems.ENDERITE_DUST);
+                        entries.add(ModBlocks.ENDERITE_DUST_BLOCK);
+
+                        entries.add(ModBlocks.ENDERITE_DUST_DOOR);
+                        entries.add(ModBlocks.ENDERITE_DUST_FENCE);
+                        entries.add(ModBlocks.ENDERITE_DUST_FENCE_GATE);
+                        entries.add(ModBlocks.ENDERITE_DUST_WALL);
+                        entries.add(ModBlocks.ENDERITE_DUST_TRAPDOOR);
+                        entries.add(ModBlocks.ENDERITE_DUST_BUTTON);
+                        entries.add(ModBlocks.ENDERITE_DUST_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ENDERITE_DUST_SLAB);
+                        entries.add(ModBlocks.ENDERITE_DUST_STAIRS);
+
 
                         entries.add(ModItems.ENDERITE_HELMET);
                         entries.add(ModItems.ENDERITE_CHESTPLATE);
                         entries.add(ModItems.ENDERITE_LEGGINGS);
                         entries.add(ModItems.ENDERITE_BOOTS);
+
 
                     }).build());
 
