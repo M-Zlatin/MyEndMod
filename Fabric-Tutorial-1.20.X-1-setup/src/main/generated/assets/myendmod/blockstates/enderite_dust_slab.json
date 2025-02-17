@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "myendmod:block/enderite_dust_slab"
+    },
+    "type=double": {
+      "model": "myendmod:block/enderite_dust_block"
+    },
+    "type=top": {
+      "model": "myendmod:block/enderite_dust_slab_top"
+    }
+  }
+}

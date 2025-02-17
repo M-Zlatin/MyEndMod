@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:end_stone"
+    },
+    "W": {
+      "item": "myendmod:enderite_dust"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WWS",
+    "SSS"
+  ],
+  "result": {
+    "item": "myendmod:enderite"
+  },
+  "show_notification": true
+}

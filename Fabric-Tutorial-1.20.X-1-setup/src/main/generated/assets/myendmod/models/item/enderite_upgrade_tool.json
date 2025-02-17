@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "myendmod:item/enderite_upgrade_tool"
+  }
+}

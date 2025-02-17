@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enderite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "myendmod:enderite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_enderite_upgrade_tool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "myendmod:enderite_upgrade_tool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_netherite_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "myendmod:netherite_to_enderite_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_enderite_upgrade_tool",
+      "has_netherite_chestplate",
+      "has_enderite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "myendmod:netherite_to_enderite_chestplate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

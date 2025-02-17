@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "myendmod:block/enderite_dust_block",
+    "side": "myendmod:block/enderite_dust_block",
+    "top": "myendmod:block/enderite_dust_block"
+  }
+}

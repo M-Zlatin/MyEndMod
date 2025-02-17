@@ -1,0 +1,6 @@
+// 1.20.1	2025-02-17T17:30:19.1135176	MyEndMod/Tags for minecraft:block
+7970612fd45771d6443e575b98a30c00409220d6 data\minecraft\tags\blocks\fence_gates.json
+f80fdb5822f82b273bbb6eda08ae47c134c05f02 data\minecraft\tags\blocks\mineable\pickaxe.json
+2774a778689dedc42bb9188f81617c3f1f651d45 data\minecraft\tags\blocks\walls.json
+ff5ac66a26cd8d42200636fb920bbbef76b10119 data\minecraft\tags\blocks\fences.json
+f80fdb5822f82b273bbb6eda08ae47c134c05f02 data\minecraft\tags\blocks\needs_iron_tool.json

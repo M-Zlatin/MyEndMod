@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "myendmod:enderite"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "myendmod:enderite_leggings"
+  },
+  "template": {
+    "item": "myendmod:enderite_upgrade_tool"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "myendmod:block/enderite_dust_trapdoor"
+  }
+}

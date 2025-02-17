@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "myendmod:block/enderite_dust_pressure_plate"
+    },
+    "powered=true": {
+      "model": "myendmod:block/enderite_dust_pressure_plate_down"
+    }
+  }
+}

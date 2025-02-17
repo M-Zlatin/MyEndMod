@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "myendmod:enderite_helmet",
+    "myendmod:enderite_chestplate",
+    "myendmod:enderite_leggings",
+    "myendmod:enderite_boots"
+  ]
+}

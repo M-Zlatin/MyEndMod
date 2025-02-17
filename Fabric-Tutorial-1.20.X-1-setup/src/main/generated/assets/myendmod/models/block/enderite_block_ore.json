@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "myendmod:block/enderite_block_ore"
+  }
+}

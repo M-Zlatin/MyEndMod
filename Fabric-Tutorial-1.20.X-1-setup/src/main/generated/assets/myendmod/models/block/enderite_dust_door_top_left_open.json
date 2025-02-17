@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "myendmod:block/enderite_dust_door_bottom",
+    "top": "myendmod:block/enderite_dust_door_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "myendmod:block/enderite_dust_block"
+    }
+  }
+}

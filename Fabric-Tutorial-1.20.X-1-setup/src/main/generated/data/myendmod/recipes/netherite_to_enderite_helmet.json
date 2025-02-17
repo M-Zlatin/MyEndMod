@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "myendmod:enderite"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "myendmod:enderite_helmet"
+  },
+  "template": {
+    "item": "myendmod:enderite_upgrade_tool"
+  }
+}

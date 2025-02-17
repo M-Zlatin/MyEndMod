@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enderite_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "myendmod:enderite_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "myendmod:enderite_from_enderite_dust_and_end_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_enderite_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "myendmod:enderite_from_enderite_dust_and_end_stone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

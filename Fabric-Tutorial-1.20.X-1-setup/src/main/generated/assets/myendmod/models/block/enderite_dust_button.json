@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "myendmod:block/enderite_dust_block"
+  }
+}
